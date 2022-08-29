@@ -87,8 +87,6 @@ header{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
 	background:linear-gradient(to bottom, rgb(0 0 0 / 1), rgb(0 0 0 / .5)), url("../assets/img/consola.jpg");
 	background-size: cover;
 	overflow: hidden;
@@ -100,8 +98,6 @@ header{
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;
 	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
 	overflow: hidden;
 }
 .img-chavo{
@@ -186,8 +182,6 @@ header{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
 	margin-bottom: 2%;
 	justify-content: space-between;
 }
@@ -245,7 +239,7 @@ header{
 	background:linear-gradient(to bottom, rgb(187, 28, 115), rgb(0 0 0 / .5));
 }
 .logos-contactanos{
-	width: 20%;
+	width: 40%;
 }
 .como-contactarnos a{
 	text-decoration: none;
@@ -271,8 +265,6 @@ header{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
 	justify-content: space-between;
 	align-items: flex-start;
 }
@@ -464,7 +456,13 @@ footer{
 	.texto-izquierda{
 		grid-area: 1 / 1 / 2 / 2;
 	}
-			/* Especificos Servicios */
+				/* Especificos Servicios */
+				/* Especificos Referencias */
+	.referencias-formato{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 5fr 3fr;
+		border-radius: 1%;
+	}
 			/* backline */
 	.texto-backline{
 		font-size: 80%;
@@ -491,6 +489,9 @@ footer{
 	}
 	.horarios{
 		margin-bottom: 5%;
+	}
+	.logos-contactanos{
+		width: 28%;
 	}
 			/* Especificos Footer */
 	.pie li a img{
