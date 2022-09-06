@@ -1,0 +1,45 @@
+@media only screen and (max-width: 320px){
+	header{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: stretch;
+		align-content: space-between;
+	}
+	h1{
+		font-size: 90%;
+	}
+	h2{
+		font-size: 85%;
+	}
+	.img-logo{
+		width: 90%;
+	}
+	.formato-texto-general{
+		font-size: 50%;
+	}
+	span{
+		font-size: 50%;
+	}
+			/* Especificos Index */
+	.img-index{
+		height: 40vh;
+	}
+	.logos{
+		height: auto;
+		width: 30%;
+	}
+			/* Especificos Contactanos */
+	.contacto-texto{
+		font-size: 80%;
+	}
+	.como-contactarnos{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		justify-content: left;
+        a{
+            width: 80%;
+        }
+	}
+}

@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1800px){
+	h1{
+		font-size: 80px;
+	}
+	h2{
+		font-size: 60px;
+	}
+	.formato-texto-general{
+		font-size: 32px;
+	}
+			/* Especificos contactanos */
+	.contacto{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr repeat(2, 3fr);
+        h1{
+            grid-area: 1 / 1 / 2 / 3;
+        }
+	}
+	.como-contactarnos{
+		grid-area: 2 / 1 / 3 / 2;
+	}
+	.horarios{
+		grid-area: 2 / 2 / 3 / 3;
+	}
+	.formulario{
+		grid-area: 3 / 1 / 4 / 2;
+	}
+	.mapa{
+		grid-area: 3 / 2 / 4 / 3;
+	}
+}

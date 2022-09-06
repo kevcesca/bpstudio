@@ -1,0 +1,35 @@
+.formato-servicios{
+	height: 100vh;
+	width: auto;
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-rows: 1fr;
+	overflow: hidden;
+}
+.img-chavo{
+	background:linear-gradient(to bottom, #000000b3, #0000004d), url("../assets/img/chavo.jpg");
+	background-size: cover;
+}
+.img-chava{
+	background:linear-gradient(to bottom, #000000b3, #0000004d), url("../assets/img/chava.jpg");
+	background-size: cover;
+}
+.fondos-servicios{
+	background-color: black;
+	grid-area: 1 / 2 / 2 / 3;
+	opacity: 40%;
+	justify-content: flex-start;
+}
+.texto-centro{
+	grid-area: 1 / 2 / 2 / 3;
+}
+.col-flex-center{
+	margin-right: 7%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.texto-centrado{
+	text-align: center;
+}

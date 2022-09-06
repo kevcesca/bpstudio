@@ -1,0 +1,116 @@
+@media only screen and (max-width: 900px){
+	h1{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 35px;
+	}
+	header{
+		font-size: 15px;
+	}
+	.formato-texto-general{
+		font-size: 20px;
+	}
+			/* Especificos Index */
+	.img-index{
+		grid-template-columns: 1fr 5fr 1fr;
+		height: 60vh;
+	}
+	.fondos-derecha{
+		grid-area: 1 / 2 / 2 / 3;
+	}
+	.fondos-izquierda{
+		grid-area: 1 / 2 / 2 / 3;
+	}					
+	.texto-derecha{
+		grid-area: 1 / 2 / 2 / 3;
+	}
+	.texto-izquierda{
+		grid-area: 1 / 2 / 2 / 3;
+	}
+			/* Especificos Servicios */
+	.texto-centro{
+		grid-area: 1 / 1 / 2 / 4;
+	}
+	.fondos-servicios{
+		grid-area: 1 / 1 / 2 / 4;
+	}
+	.img-chavo{
+		height: 50vh;
+		width: auto;
+	}
+	.img-chava{
+		height: 50vh;
+		width: auto;
+	}
+			/* Especificos Referencias */
+			/* Especificos Backline */
+	.backline-formato{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		justify-content: center;
+		align-items: center;
+		background: none;
+	}
+	.backline-texto-derecha{
+		grid-area: 1 / 1 / 2 / 2;
+		z-index: 1;
+	}
+	.backline-texto-izquierda{
+		grid-area: 1 / 1 / 2 / 2;
+		z-index: 1;
+	}
+	.img-backline-derecha{
+		grid-area: 1 / 1 / 2 / 2;
+		opacity: 70%;
+		margin: 0;
+	}
+	.img-backline-izquierda{
+		grid-area: 1 / 1 / 2 / 2;
+		opacity: 70%;
+		margin: 0;
+	}
+	.backline-video{
+		width: 100%;
+	}
+			/* Especificos contactanos */
+	.contacto{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 1fr repeat(2, 2fr) repeat(2, 3fr);
+		font-size: 18px;
+		align-items: inherit;
+	}
+	.formulario{
+		grid-area: 4 / 1 / 5 / 3;
+		margin-bottom: 5%;
+		height: 50vh;
+	}
+	.mapa{
+		grid-area: 5 / 1 / 6 / 3;
+		margin-bottom: 5%;
+		height: 50vh;
+	}
+	.como-contactarnos{
+		margin-bottom: 5%;
+	}
+	.horarios{
+		margin-bottom: 5%;
+	}
+	.logos-contactanos{
+		width: 28%;
+	}
+			/* Especificos Footer */
+	.pie{
+        li{
+            a{
+                img{
+		            width: 100%;
+                }
+            }
+        }
+	}
+	.logos{
+		height: auto;
+		width: 20%;
+	}
+}

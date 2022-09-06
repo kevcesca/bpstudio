@@ -1,0 +1,35 @@
+.fondos-derecha{
+	grid-area: 1 / 2 / 2 / 3;
+	background-color:#4D0889 ;
+	opacity: 40%;
+	text-align: center;
+}
+.fondos-izquierda{
+	grid-area: 1 / 1 / 2 / 2;
+	background-color:#4D0889;
+	opacity: 40%;
+	text-align: center;
+}
+.texto-derecha{
+	grid-area: 1 / 2 / 2 / 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.texto-izquierda{
+	grid-area: 1 / 1 / 2 / 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.img-index{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	background:linear-gradient(to bottom, #000000, #00000080), url("../assets/img/consola.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
