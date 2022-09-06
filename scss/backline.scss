@@ -7,7 +7,7 @@
 	overflow: hidden;
 }
 .backline-formato{
-	background:linear-gradient(to bottom, #000000e6, #4d088934);
+	background:linear-gradient(to bottom, $colNegro, $colMoradito);
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;

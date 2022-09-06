@@ -1,12 +1,12 @@
 .fondos-derecha{
 	grid-area: 1 / 2 / 2 / 3;
-	background-color:#4D0889 ;
+	background-color: $colMorado;
 	opacity: 40%;
 	text-align: center;
 }
 .fondos-izquierda{
 	grid-area: 1 / 1 / 2 / 2;
-	background-color:#4D0889;
+	background-color: $colMorado;
 	opacity: 40%;
 	text-align: center;
 }

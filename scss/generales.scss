@@ -43,13 +43,13 @@ header{
 	font-size: 20px;
 }
 .navbar-nav{
-	background-color: #4D0889;
+	background-color: $colMorado;
 	opacity: 90%;
 	padding-left: 1%;
 	padding-right: 1%;
 }
 .navbar-toggler{
-	background-color:#4D0889;
+	background-color: $colMorado;
 	opacity: 90%;
 }
 .espacio-2{

@@ -19,7 +19,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	background:linear-gradient(to bottom, #bb1c73, #00000080);
+	background:linear-gradient(to bottom, $colRosita, $colNegro);
 }
 .logos-contactanos{
 	width: 80%;
@@ -31,7 +31,7 @@
 	grid-area: 3 / 1 / 4 / 3;
 	display: flex;
 	flex-direction: column;
-	background:linear-gradient(to bottom, #bb1c73, #00000080);
+	background:linear-gradient(to bottom, $colRosita, $colNegro);
 }
 .formulario{
 	grid-area: 4 / 1 / 5 / 2;
@@ -39,7 +39,7 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: 2fr 1fr 2fr 1fr;
 	height: 80vh;
-	background:linear-gradient(to bottom, #bb1c73, #00000080);
+	background:linear-gradient(to bottom, $colRosita, $colNegro);
 	padding-bottom: 4%;
 	padding-top: 4%;
 }
@@ -102,7 +102,7 @@
 	justify-content: center;
 	margin-bottom: 5%;
 	height: 80vh;
-	background:linear-gradient(to bottom, #bb1c73, #00000080);
+	background:linear-gradient(to bottom, $colRosita, $colNegro);
 	padding-top: 4%;
 	padding-bottom: 4%;
 }
