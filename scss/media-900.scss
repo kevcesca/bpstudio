@@ -36,12 +36,10 @@
 		grid-area: 1 / 1 / 2 / 4;
 	}
 	.img-chavo{
-		height: 50vh;
-		width: auto;
+		@include dimensiones(auto,50vh);
 	}
 	.img-chava{
-		height: 50vh;
-		width: auto;
+		@include dimensiones(auto,50vh);
 	}
 			/* Especificos Referencias */
 			/* Especificos Backline */
@@ -110,7 +108,6 @@
         }
 	}
 	.logos{
-		height: auto;
-		width: 20%;
+		@include dimensiones(20%,auto);
 	}
 }

@@ -27,8 +27,7 @@
 		height: 40vh;
 	}
 	.logos{
-		height: auto;
-		width: 30%;
+		@include dimensiones(30%,auto);
 	}
 			/* Especificos Contactanos */
 	.contacto-texto{

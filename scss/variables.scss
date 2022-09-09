@@ -1,4 +1,11 @@
-$colMoradito:#4d088934;
-$colNegro:#000000e6;
-$colRosita:#bb1c73;
-$colMorado:#4D0889;
+$fonditos:(
+    moradito:#4d088934,
+    negro:#000000e6,
+    rosita:#bb1c73,
+    morado:#4D0889
+);
+
+@mixin dimensiones($ancho, $largo){
+    width: $ancho;
+    height: $largo;
+} 

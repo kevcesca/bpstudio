@@ -1,13 +1,12 @@
 .backline-video{
 	aspect-ratio: 16/9;
-	width: 80%;
-	height: auto;
+	@include dimensiones(80%,auto);
 }
 .lista-backline{
 	overflow: hidden;
 }
 .backline-formato{
-	background:linear-gradient(to bottom, $colNegro, $colMoradito);
+	background:linear-gradient(to bottom, map-get($fonditos, negro), map-get($fonditos, moradito));
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
@@ -21,9 +20,8 @@
 
 }
 .img-backline-derecha{
+	@extend .img-backline-izquierda;
 	grid-area: 1 / 2 / 2 / 3;
-	width: 100vh;
-	margin: 2%;
 }
 .texto-backline{
 	font-size: 22px;
@@ -39,10 +37,7 @@
 	justify-content: center;
 }
 .backline-texto-izquierda{
+	@extend .backline-texto-derecha;
 	grid-area: 1 / 1 / 2 / 2;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
 	justify-content: space-evenly;
 }
