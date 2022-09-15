@@ -14,7 +14,9 @@ Agregué en las 5 páginas web una etiqueta meta keywords, una etiqueta meta des
 -Añadí un icono para todas las páginas del sitio
 -Añadí bordes en el formulario de contactanos
 -Modifique mi package.json para que sea un poco más descriptivo
-> 14/09/2022 23:25
+> 14/09/2022 23:40
+
+Enlace de la pagina en un hosting: https://bp-studio-rec.000webhostapp.com/index.html
 
 ##### Este repositorio está siendo realizado por Kevin Cerón Escalante
 
