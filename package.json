@@ -1,7 +1,7 @@
 {
-  "name": "root",
+  "name": "BP Studio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es un proyecto hecho con HTML y CSS principalmente en el cual voy a estar trabajando un sitio web sobre el emprendimiento de mi mejor amigo, su proyecto es un estudio de grabación y se llama BP Studio.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kevoscuro/bpstudio#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "bootstrap": "^5.2"
   }
 }
