@@ -16,6 +16,13 @@ Agregué en las 5 páginas web una etiqueta meta keywords, una etiqueta meta des
 -Modifique mi package.json para que sea un poco más descriptivo
 > 14/09/2022 23:40
 
+### ¿Qué agregué en el commit "Entrega Final"?
+
+-Modifique separaciones del footer, del form en contactanos y la vista mobile de referencias.
+-Añadí fondos negros para tener mejor visualización en la vista mobile de referencias.
+-Cambie de color los logos de contactanos para que no se perdieran con el fondo.
+> 19/09/2022 23:20
+
 Enlace de la pagina en un hosting: https://bp-studio-rec.000webhostapp.com/index.html
 
 ##### Este repositorio está siendo realizado por Kevin Cerón Escalante
