@@ -31,6 +31,8 @@ ul li {
   list-style-type: none; }
   ul li a {
     text-decoration: none; }
+  ul li a:hover {
+    background-color: #4D0889; }
 
 span {
   color: #FFF; }
